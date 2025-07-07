@@ -1,0 +1,95 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 50%, 23%);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container1 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.nft-card {
+  max-width: 350px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: blanchedalmond;
+  box-shadow: 0 0.5rem 5rem hsl(215, 52%, 23%);
+  border: 2px solid hsl(215, 52%, 23);
+  color: #f0f0f0;
+  transition: transform 0.03s ease, box-shawdo 0.03s ease;
+}
+
+.nft-card: hover {
+  transform: scale(1.02);
+  box-shadow: 0 1rem 2rem rgba(0, 255, 255, 0.4);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 20px solid blanchedalmond;
+  border-radius: 2rem;
+}
+
+.card-body {
+  background-color: ;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-title {
+  color: black;
+  font-weight: 700;
+}
+
+.card-text {
+  color: hsl(215, 32%, 70%);
+}
+
+.text-primary {
+  color: hsl(178, 100%, 50%);
+}
+
+.text-secondary,
+.text-muted {
+  color: hsl(31, 32%, 70%);
+}
+
+.price-time-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.creator-row {
+  border-top: 1px solid hsl(215, 32%, 30%);
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.creator-row img {
+  border-radius: 50%;
+}
+
+span {
+  color: orangered;
+}
+
+@media (max-width: 576px) {
+  .nft-card {
+    max-width: 90%;
+    border-width: 1.5.px;
+  }
+}
